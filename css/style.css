@@ -264,6 +264,9 @@ p {
   opacity: 0.5;
 }
 
+.map_section {
+  padding-top: 100px;
+}
 .map_section iframe {
   width: 100%;
   padding: 0;
