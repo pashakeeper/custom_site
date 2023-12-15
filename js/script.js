@@ -3,12 +3,6 @@
 
 $(document).ready(function () {
     AOS.init();
-    if (window.location.pathname === "/") {
-        var typed = new Typed('.main_title', {
-            strings: ['ООО "BLABLABLAH"'],
-            typeSpeed: 60
-        });
-    }
     $(document).mouseup(function(e) {
         var container = $(".menu_box");
         if (!container.is(e.target) && container.has(e.target).length === 0) {
